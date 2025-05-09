@@ -34,6 +34,13 @@
   font-weight: bold;
   color: #181818;
 }
+.section-description{
+  font-size: 18px;
+  color: #757575;
+}
+.secondary-bg{
+  background-color: #FFF8F3;
+}
 /* nav style */
 nav{
     display: flex;
@@ -77,4 +84,25 @@ nav li a {
   display: flex;
   justify-content: space-between;
   margin: 0 35px 0 200px;
+}
+
+/* main style */
+main{
+  max-width: 1140px;
+  margin: 0 auto;
+}
+
+/* About style */
+.about{
+  border-radius: 10px;
+  padding: 131px 156px;
+  margin-top: 130px;
+  text-align: center;
+}
+.item-description{
+  font-weight: 600px;
+}
+.about-items{
+  display: flex;
+  justify-content: space-around;
 }
